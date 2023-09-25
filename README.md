@@ -1,1 +1,1 @@
-a Python program that reads data from two data files, teams.dat and games.dat, stored within a folder whose name will be provided in the command line. And returns a standings and Team results table as output.
+A Python program that reads data from two data files, teams.dat and games.dat, stored within a folder whose name will be provided in the command line. And returns a standings and Team results table as output.
