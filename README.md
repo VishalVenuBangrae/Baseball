@@ -1,41 +1,26 @@
-# Baseball
-Write a Python program that reads data from two data files, teams.dat and games.dat, stored within a folder whose name will be provided in the command line. The following is a sample content of these two files:
-Mac-mini:p2-baseball raj$ more data/teams.dat 
+# Baseball Program
+
+This Python program reads data from two data files, `teams.dat` and `games.dat`, stored within a folder whose name will be provided in the command line.
+
+## Data Files
+
 Atlanta Braves:ATL
 St. Louis Cardinals:STL
 Chicago Cubs:CHC
 Arizona Diamondbacks:ARI
 Cleveland Indians:CLE
-Mac-mini:p2-baseball raj$ more data/games.dat 
+
+**teams.dat**:
+
 2004-03-20:ARI:CHC:10:11
 2004-03-23:ATL:STL:0:1
 2004-03-27:STL:CHC:7:9
 2004-03-27:CLE:ATL:1:0
 2004-03-30:ATL:CHC:10:5
-2004-04-01:CLE:ARI:8:8
-2004-04-15:ARI:ATL:3:11
-2004-04-17:CLE:STL:7:11
-2004-04-20:STL:ARI:10:12
-2004-04-22:CHC:CLE:7:4
-2004-04-24:CHC:ARI:7:12
-2004-04-29:STL:ATL:2:10
-2004-05-01:ATL:CLE:14:14
-2004-05-01:CHC:STL:10:0
-2004-05-04:CHC:ATL:10:8
-2004-05-04:ARI:CLE:8:7
-2004-05-08:ATL:ARI:6:8
-2004-05-13:STL:CLE:3:6
-2004-05-15:ARI:STL:7:13
-2004-05-15:CLE:CHC:6:8
-2004-05-18:ARI:CHC:13:5
-2004-05-22:ATL:STL:3:6
-Mac-mini:p2-baseball raj$
-After reading, the program prompts the user with a menu of 3 options:
-Produce team standings, sorted in descending order of percentage.
-Produce a listing of team results for a particular team whose team code will be obtained from the user from the terminal input.
-Quit the program.
-A sample run of the program is shown below:
-Mac-mini:p2-baseball raj$ python3 Baseball.py data
+
+# SAMPLE RUN 
+
+$ python3 Baseball.py data
 
 (s) Standings
 (t) Team results
@@ -81,10 +66,10 @@ Team: Chicago Cubs
 
 Overall Record: 6-3-0
 
-
 (s) Standings
 (t) Team results
 (q) Quit
 
 What do you want to see: q
-Mac-mini:p2-baseball raj$
+
+
